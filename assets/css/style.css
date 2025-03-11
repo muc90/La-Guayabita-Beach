@@ -856,6 +856,18 @@ html {
     width: 100%;
     padding: 0 24px;
   }
+  .text-container {
+    flex-direction: column; /* Stellt die Absätze untereinander */
+    align-items: center; /* Zentriert die Texte */
+    text-align: center;
+  }
+  .text-container p {
+    margin: 4px 0;
+  }
+  .page-bioline p {
+    margin-bottom: 4px; /* Reduziert den Abstand unter "Playa El Palmar" */
+  }
+
   .xs-hidden {
     display: none;
   }
